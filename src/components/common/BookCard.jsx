@@ -96,7 +96,7 @@ const BookCard = ({ book, onLoan, isLoaned, showLoanButton = true }) => {
         <div className="flex space-x-2 pt-2">
           <Link
             to={`/books/${book.id}`}
-            className="flex-1 flex items-center justify-center space-x-1 px-3 py-2 text-sm font-medium text-primary-900 border border-primary-900 rounded-lg hover:bg-primary-900 hover:text-white transition-colors"
+            className="flex-1 flex items-center justify-center space-x-1 px-3 py-2 text-sm font-medium text-black bg-gray-200 border  rounded-lg hover:bg-blue-900 hover:text-white transition-colors"
           >
             <Eye className="h-4 w-4" />
             <span>View Details</span>
