@@ -175,11 +175,15 @@ const HomePage = () => {
                     )}
 
                     <div className="text-center mt-8">
-                        <Link to="/books" className="btn-primary inline-flex items-center space-x-2">
+                        <Link
+                            to="/books"
+                            className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white font-medium px-5 py-3 rounded-lg shadow-md hover:bg-cyan-700 transition-colors duration-200"
+                        >
                             <span>View All Books</span>
                             <ArrowRight className="h-4 w-4" />
                         </Link>
                     </div>
+
                 </div>
             </section>
 
