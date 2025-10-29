@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
     return (
-        <footer className="bg-primary-900 text-black">
+        <footer className="bg-gray-300 text-black">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {
@@ -33,8 +33,8 @@ const Footer = () => {
                         /* Contact Info */
 
                     }
-                    <div> <h3 className="text-lg font-semibold mb-4">Contact Info</h3> <div className="space-y-3"> <div className="flex items-center space-x-3"> <MapPin className="h-5 w-5 text-gray-800" /> <span className="text-gray-800"> 123 Library Street<br /> Book City, BC 12345 </span> </div> <div className="flex items-center space-x-3"> <Phone className="h-5 w-5 text-gray-800" /> <span className="text-gray-800">+1 (555)
-                        123-4567</span> </div> <div className="flex items-center space-x-3"> <Mail className="h-5 w-5 text-gray-800" /> <span className="text-gray-800">info@elib.com</span> </div> </div> </div> </div> {
+                    <div> <h3 className="text-lg font-semibold mb-4">Contact Info</h3> <div className="space-y-3"> <div className="flex items-center space-x-3"> <MapPin className="h-5 w-5 text-gray-800" /> <span className="text-gray-800"> Rue Panamericaine <br /> Port Au prince, Haiti </span> </div> <div className="flex items-center space-x-3"> <Phone className="h-5 w-5 text-gray-800" /> <span className="text-gray-800">+509 3665 3787
+                    </span> </div> <div className="flex items-center space-x-3"> <Mail className="h-5 w-5 text-gray-800" /> <span className="text-gray-800">info@elib.com</span> </div> </div> </div> </div> {
 
                     /* Bottom Section */
 
